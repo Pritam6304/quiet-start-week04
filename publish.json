@@ -1,0 +1,6 @@
+{
+  "build": {
+    "command": "rm -rf dist && mkdir -p dist && cp index.html styles.css dist/ && cp -r public dist/",
+    "outputDirectory": "dist"
+  }
+}
